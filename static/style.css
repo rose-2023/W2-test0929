@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    color: rgb(238, 83, 12);
+    color: rgb(255, 14, 14);
     text-align: center;
 }
 p{
@@ -14,16 +14,16 @@ p{
     margin: 10px 0;
 }
 .topics{
-    display: block;
+    display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin: 20px auto;
 }
 label{
-    background-color: #0e8d9e;
+    background-color: #e2a41e;
     padding: 10px 15px;
-    margin: 10px;
     border-radius: 8px;
+
 }
 .question_ai h3,
 .feedback h3{
@@ -40,8 +40,6 @@ label{
     width: 800px;
     margin: 50px auto;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
     border-radius: 30px;
     background-color: #fff;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
@@ -54,5 +52,6 @@ label{
     border-radius: 10px;
     background-color: #4caf50;
     color: white;
+    cursor: pointer;
     font-size: 16px;
 }
